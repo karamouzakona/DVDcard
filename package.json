@@ -1,0 +1,19 @@
+{
+  "name": "ergasia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd server && npm install && cd ../client && npm install",
+    "start": "cd server && node index.js && cd ../client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikossoftwaredev/ergasia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikossoftwaredev/ergasia/issues"
+  },
+  "homepage": "https://github.com/nikossoftwaredev/ergasia#readme"
+}
